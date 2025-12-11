@@ -1,0 +1,190 @@
+/* ======== RESET GENERAL ======== */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  background: #eef1f7;
+  color: #1f1f1f;
+}
+
+/* ======== CONTENEDOR GENERAL ======== */
+.dashboard-container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* ======== HEADER ======== */
+.header {
+  text-align: left;
+  margin-bottom: 35px;
+}
+
+.header h1 {
+  font-size: 2.4rem;
+  font-weight: 800;
+  color: #1e3a5f;
+  margin-bottom: 5px;
+}
+
+.header p {
+  color: #5f6b84;
+  font-size: 1rem;
+}
+
+/* ======== GRID DE CONTENIDO ======== */
+.content-grid {
+  display: grid;
+  grid-template-columns: 350px 1fr;
+  gap: 30px;
+}
+
+/* ======== CARD DE FORMULARIO ======== */
+.form-card {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 18px;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e2e6ee;
+}
+
+.form-card h2 {
+  margin: 0 0 20px 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #243b61;
+}
+
+/* ======== FORMULARIO MODERNO ======== */
+
+.modern-form label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 18px;
+  font-weight: 600;
+  color: #2d3e52;
+}
+
+.modern-form input {
+  padding: 12px 14px;
+  margin-top: 6px;
+  border-radius: 10px;
+  border: 2px solid #d9dce4;
+  outline: none;
+  background: #fafbff;
+  transition: 0.25s ease;
+  font-size: 14px;
+}
+
+.modern-form input:focus {
+  border-color: #3b82f6;
+  background: #ffffff;
+}
+
+/* ======== BOTÓN GUARDAR ======== */
+.btn-save {
+  width: 100%;
+  padding: 12px;
+  background: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.btn-save:hover {
+  background: #2563eb;
+}
+
+/* ======== CARD DE TABLA ======== */
+.table-card {
+  background: white;
+  padding: 25px;
+  border-radius: 18px;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e2e6ee;
+}
+
+.table-card h2 {
+  margin: 0 0 15px 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #243b61;
+}
+
+/* ======== TABLA MODERNA ======== */
+.table-wrapper {
+  overflow-x: auto;
+}
+
+.modern-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.modern-table th {
+  background: #3b82f6;
+  color: white;
+  padding: 12px;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.modern-table td {
+  padding: 12px;
+  border-bottom: 1px solid #e5e7eb;
+  font-size: 14px;
+  color: #2f3640;
+}
+
+.modern-table tr:hover td {
+  background: #eef5ff;
+}
+
+/* ======== BOTONES DE ACCIÓN ======== */
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-edit,
+.btn-delete {
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  transition: 0.2s ease;
+}
+
+/* EDITAR */
+.btn-edit {
+  background: #16a34a;
+  color: white;
+}
+.btn-edit:hover {
+  background: #0f7938;
+}
+
+/* ELIMINAR */
+.btn-delete {
+  background: #dc2626;
+  color: white;
+}
+.btn-delete:hover {
+  background: #b91c1c;
+}
+
+/* ======== NO USUARIOS ======== */
+.no-users {
+  text-align: center;
+  padding: 20px;
+  color: #6b7280;
+  font-style: italic;
+}
