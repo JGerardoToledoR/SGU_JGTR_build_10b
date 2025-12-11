@@ -13,12 +13,12 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="SGU-ESA-10B" target="21" />
+      <module name="SGU-JGTR-10B" target="21" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="SGU-ESA-10B" options="-parameters" />
+      <module name="SGU-JGTR-10B" options="-parameters" />
       <module name="Server" options="-parameters" />
     </option>
   </component>
